@@ -61,6 +61,8 @@ function handleSearchResults(data) {
     const results = data.results
     const resultsCount = data.results.length
 
+    console.log('[query] requested', data.query)
+
     // Display from response
     resultsList(results, DISPLAY_LIMIT)
 
