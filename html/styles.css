@@ -1,0 +1,36 @@
+.searchArea {
+    padding: 10px;
+    width: 80%;
+    height: 700px;
+    max-width: 400px;
+}
+
+.searchBar {
+    background-color: rgb(7, 37, 104);
+    color: black;
+    padding: 10px;
+}
+
+#searchQuery {
+    width: 200px;
+}
+
+.searchResults {
+    background-color: rgb(210, 219, 238);
+    padding: 1px;
+    max-height: 80%;
+    overflow: scroll
+}
+
+.searchResultsHead {
+    padding: 10px;
+    background-color: rgb(185, 203, 241);
+}
+
+.resultsList {
+    list-style-type: none;
+}
+
+label {
+    color: white;
+}
